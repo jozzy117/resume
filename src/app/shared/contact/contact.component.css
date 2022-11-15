@@ -1,0 +1,67 @@
+.actions {
+    width: 537px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 19.98px;
+}
+.action_contact, .action_name {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.action_name {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 29px;
+    color: var(--grey001);
+    margin-top: 11px;
+    margin-bottom: 16px;
+}
+.action_contact {
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 22px;
+    color: var(--primary);
+}
+.action_width {
+    width: 40px;
+    height: 40px;
+}
+.contact_field {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 1.8rem;
+}
+.full_width {
+    width: 100%;
+}
+.half_width {
+    width: 50%;
+}
+input {
+    height: 42px;
+}
+textarea {
+    height: 220px;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.short_inputs {
+    display: flex;
+    gap: 20px;
+}
+
+
+/* Mobile Phones Screens */
+@media (max-width: 599.98px) {
+    .actions {
+        flex-direction: column;
+        gap: 20px;
+    }
+}

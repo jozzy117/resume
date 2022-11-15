@@ -1,0 +1,44 @@
+.exp_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 36px;
+    justify-content: space-between;
+}
+.resume {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    padding-left: 33.5px;
+    border-left: 5px solid #FCE82F;
+}
+.year, .school, .course {
+    font-family: 'Montserrat';
+    font-style: normal;
+}
+.year {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 37px;
+    color: var(--primary);
+    margin-bottom: 24px;
+}
+.school {
+    font-weight: 600;
+    font-size: 2.2rem;
+    line-height: 27px;
+    color: var(--grey001);
+    margin-bottom: 12px;
+}
+.course {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--grey001);
+}
+.half_width {
+    width: 50%;
+}
+.justify_end {
+    display: flex;
+    justify-content: flex-end;
+}

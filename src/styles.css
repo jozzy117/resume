@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root {
+    /* font-size: calc(16px + 1vw); */
+    font-size: 62.5%;
+    /* Color styles */
+    --grey001: #E5E5E5;
+    --primary: #FFFFFF;
+}
+
+p {
+    margin: 0px;
+}
+a {
+    cursor: pointer;
+}
+
+.container-fluid {
+    background-color: #000000;
+    padding-top: 51px;
+    padding-right: 4.86%;
+    padding-left: 12.5%;
+    padding-bottom: 136px;
+}
+.padStyle {
+    gap: 100px;
+    padding-right: 7%
+}
+
+
+/* Mobile Phones Screens */
+@media (max-width: 599.98px) {
+    .container-fluid {
+        padding-left: 4.86%;
+    }
+    .padStyle {
+        padding-right: 0px
+    }
+}

@@ -1,0 +1,30 @@
+a {
+    text-decoration: none;
+}
+.active {
+    color: #FCE82F !important;
+}
+a> li {
+    list-style-type: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 24px;
+    color: var(--primary);
+}
+.nav_items {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+}
+
+
+/* Mobile Phones Screens */
+@media (max-width: 599.98px) {
+    .nav_items {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 50px;
+    }
+}

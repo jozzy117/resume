@@ -1,0 +1,47 @@
+.port_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    margin-top: 21px;
+    margin-bottom: 24.28px;
+}
+a {
+    text-decoration: none;
+}
+.active {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 92px;
+    height: 50px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    color: #000000 !important;
+    margin-right: -36px;
+    margin-left: -36px;
+}
+a> li {
+    list-style-type: none;
+    color: var(--primary);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+}
+.port_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* gap: 24.78px; */
+}
+
+
+/* Mobile Phones Screens */
+@media (max-width: 649.98px) {
+    .port_menu {
+        flex-direction: column;
+    }
+}
